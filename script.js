@@ -1,5 +1,5 @@
 var divlenght = document.querySelectorAll('.song').length;
-console.log(divlenght);
+
 
 for(var i=0; i<divlenght; i++) {
  var demo = document.querySelectorAll('.song')[i].addEventListener('click',playsong);
@@ -8,13 +8,34 @@ for(var i=0; i<divlenght; i++) {
 }
 
 var song1 = new Audio();
-song1.src = "music/alan.mp3";
+song1.src = "Laguanz.com - Joel Adams - Please Don't Go (Lyrics).mp3";
 
 var song2 = new Audio();
-song2.src = "music/alan2.mp3";
+song2.src = "Laguanz.com - Dance Monkey.mp3";
 
 var song3 = new Audio();
-song3.src = "music/alan3.mp3";
+song3.src = "Laguanz.com - Leaving On A Jet Plane - John Denver (Cover) by The Macarons Project.mp3";
+
+var song4 = new Audio();
+song4.src = " Laguanz.com - Alec Benjamin - Let Me Down Slowly [Official Music Video].mp3";
+
+var song5 = new Audio();
+song5.src="Laguanz.com - Sam Smith - Fire on Fire (Lyrics).mp3";
+
+
+var song6 = new Audio();
+song6.src = " Laguanz.com - Lauv - I Like Me Better [Official Audio].mp3";
+
+var song7 = new Audio();
+song7.src = " Let Her GoLaguanz.com - Passenger  (Official Video).mp3 ";
+
+var song8 = new Audio();
+song8.src = "Laguanz.com - Sam Smith - Fire on Fire (Lyrics).mp3";
+
+var song9 = new Audio();
+song9.src = " Laguanz.com - Tyler Simmons";
+
+
 
 function playsong(){
  var songId = this.innerHTML;
@@ -34,27 +55,27 @@ function playsong(){
    break;
 
   case "d":
-   song1.play();
+   song4.play();
    break;
 
   case "e":
-   song2.play();
+   song5.play();
    break;
 
   case "f":
-   song3.play();
+   song6.play();
    break;
 
   case "g":
-   song1.play();
+   song7.play();
    break;
 
   case "h":
-   song2.play();
+   song8.play();
    break;
 
   case "i":
-   song3.play();
+   song9.play();
    break;
 
   default:
@@ -81,27 +102,27 @@ function pausesong(){
    break;
 
   case "d":
-   song1.pause();
+   song4.pause();
    break;
 
   case "e":
-   song2.pause();
+   song5.pause();
    break;
 
   case "f":
-   song3.pause();
+   song6.pause();
    break;
 
   case "g":
-   song1.pause();
+   song7.pause();
    break;
 
   case "h":
-   song2.pause();
+   song8.pause();
    break;
 
   case "i":
-   song3.pause();
+   song9.pause();
    break;
 
   default:
